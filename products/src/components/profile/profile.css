@@ -1,8 +1,17 @@
+select {
+    
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 label {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;       /* Remove default arrow */
-   
+    font-size: 16px;
+    margin: 4px 2px;
 }
 
 button {
