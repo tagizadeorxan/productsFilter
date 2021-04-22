@@ -1,0 +1,12 @@
+[
+    {
+        "id":1,
+        "name":"Kone",
+        "price":3488.99
+    },
+    {
+        "id":2,
+        "name":"Ironhide Cartridge",
+        "price":529.99
+    }
+]
