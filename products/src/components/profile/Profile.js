@@ -13,9 +13,9 @@ const Profile = () => {
 
     return <div>
         <label>User Type:</label>
-        <select ref={userType}>
-            <option selected={type === "1" ? true : false} value="1">Associate</option>
-            <option selected={type === "2" ? true : false} value="2">Diamond</option>
+        <select defaultValue={type} ref={userType}>
+            <option value="1">Associate</option>
+            <option value="2">Diamond</option>
         </select>
         <button onClick={changeUserType}>set Type</button>
     </div>

@@ -49,10 +49,13 @@ const Card = () => {
                     <td>{e.count}</td>
                     <td>{e.price}</td>
                 </tr>) : null}
-                <p>Total price:{total}</p>
+         
+               
+               
+         
             </tbody>
         </table>
-
+        <span>Total price:{total}</span>
     </div>
 }
 
